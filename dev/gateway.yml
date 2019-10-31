@@ -3,3 +3,6 @@ zuul:
     user:
       path: /user-service/**
       serviceId: user-service
+    order:
+      path: /order-service/**
+      serviceId: order-service
