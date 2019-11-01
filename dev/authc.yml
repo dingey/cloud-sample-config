@@ -4,4 +4,4 @@ authc:
       -/order-service/orderInfo/**
   exclude:
     paths:
-      -
+      -/order-service/swagger-ui.html
