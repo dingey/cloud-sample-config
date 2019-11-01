@@ -1,9 +1,9 @@
 authc:
   include:
     paths:
-      /order-service/orderInfo/**
-      /user-service/orderInfo/**
+      - /order-service/orderInfo/**
+      - /user-service/orderInfo/**
   exclude:
     paths:
-      /order-service/swagger-ui.html
-      /user-service/swagger-ui.html
+      - /order-service/swagger-ui.html
+      - /user-service/swagger-ui.html
