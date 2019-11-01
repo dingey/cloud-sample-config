@@ -1,3 +1,7 @@
 authc:
-  paths:
-    -/order-service/**
+  include:
+    paths:
+      -/order-service/orderInfo/**
+  exclude:
+    paths:
+      -
