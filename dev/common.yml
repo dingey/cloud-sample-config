@@ -1,1 +1,1 @@
-host: localhost:${server.port}
+host: 127.0.0.1:${server.port}
