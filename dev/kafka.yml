@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: 106.14.175.92:9092
+    bootstrap-servers: localhost:9092
   cloud:
     bus:
       trace:
