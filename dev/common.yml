@@ -1,1 +1,15 @@
 host: 127.0.0.1:${server.port}
+spring:
+  zipkin:
+    kafka:
+      topic: zipkin
+    sender:
+      type: kafka
+    service:
+      name: ${spring.application.name}
+  sleuth:
+    sampler:
+      percentage: 1.0
+    enabled: true
+    messaging:
+      enabled: true
