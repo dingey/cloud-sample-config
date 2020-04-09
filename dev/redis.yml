@@ -3,3 +3,4 @@ spring:
     host: localhost
 #    password: ${REDIS_PASSWORD:123456}
     port: 6379
+    timeout: 1000
