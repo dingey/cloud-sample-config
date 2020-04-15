@@ -6,3 +6,7 @@ zuul:
     order:
       path: /order-service/**
       serviceId: order-service
+  ratelimit:
+    enabled: true
+    repository: redis
+    default-policy-list: [{"limit":10,"quota":1000,"refreshInterval":60}]
