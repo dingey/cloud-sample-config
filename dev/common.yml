@@ -1,4 +1,4 @@
-host: www.d.cn:${server.port}
+host: localhost:${server.port}
 spring:
   zipkin:
     kafka:
