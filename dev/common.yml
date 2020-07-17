@@ -1,4 +1,4 @@
-host: localhost:${server.port}
+host: localhost2:${server.port}
 spring:
   zipkin:
     kafka:
